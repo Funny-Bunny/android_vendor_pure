@@ -24,6 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.setupwizard.rotation_locked=true \
+    ro.opa.eligible_device=true \
     ro.com.google.ime.theme_id=5
 
 # Camera Effects for devices without a vendor partition
