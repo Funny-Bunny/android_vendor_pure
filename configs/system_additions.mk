@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Disable ADB authentification
+ADDITIONAL_DEFAULT_PROPERTIES := \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    persist.service.adb.enable=1
+
 # Disable HDCP check
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1
