@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Speed up compiling time
+EXCLUDE_SYSTEMUI_TESTS := true
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pure/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
