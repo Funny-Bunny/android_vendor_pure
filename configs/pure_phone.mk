@@ -30,3 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Thank you, please drive thru!
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0
+
+# Copy APNs
+ PRODUCT_COPY_FILES += \
+    vendor/pure/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
