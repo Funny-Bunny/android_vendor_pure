@@ -28,5 +28,5 @@ PRODUCT_MANUFACTURER := LGE
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=occam \
-    BUILD_FINGERPRINT=google/mako/mako:7.1.2/N2G47W/3938523:user/release-keys \
-    PRIVATE_BUILD_DESC="mako-user 7.1.2 N2G47W 3938523 release-keys"
+    BUILD_FINGERPRINT=google/mako/mako:7.1.2/N2G48C/4104010:user/release-keys \
+    PRIVATE_BUILD_DESC="mako-user 7.1.2 N2G48C 4104010 release-keys"
